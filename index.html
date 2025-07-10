@@ -35,58 +35,79 @@
 <!-- Featured Products -->
 <section class="py-12 px-4 md:px-12">
   <h2 class="text-2xl font-semibold text-center text-pink-700 mb-8">Featured Products</h2>
-
-  <!-- Necklaces -->
-  <h3 class="text-xl font-semibold text-pink-600 mb-4">Necklaces</h3>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-10">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
     <div class="bg-white p-4 rounded shadow">
-      <img src="https://i.imgur.com/ZSDaQ44.png" alt="Beaded Necklace" class="rounded mb-3 w-full object-cover h-48">
-      <h4 class="font-medium text-lg">Ocean Dream Necklace</h4>
+      <img src="https://i.imgur.com/ZSDaQ44.png" class="rounded mb-3 w-full object-cover h-48">
+      <h3 class="font-medium text-lg">Ocean Dream Necklace</h3>
       <p class="text-pink-600 font-bold">€6.00</p>
     </div>
     <div class="bg-white p-4 rounded shadow">
-      <img src="https://i.imgur.com/TczNH6K.png" alt="Sunset Bead Necklace" class="rounded mb-3 w-full object-cover h-48">
-      <h4 class="font-medium text-lg">Beaded Sunset Necklace</h4>
+      <img src="https://i.imgur.com/TczNH6K.png" class="rounded mb-3 w-full object-cover h-48">
+      <h3 class="font-medium text-lg">Summer Bracelet Set</h3>
       <p class="text-pink-600 font-bold">€7.00</p>
     </div>
-  </div>
-
-  <!-- Earrings -->
-  <h3 class="text-xl font-semibold text-pink-600 mb-4">Earrings</h3>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-10">
     <div class="bg-white p-4 rounded shadow">
-      <img src="https://i.imgur.com/JAfoO9C.png" alt="Shell Earrings" class="rounded mb-3 w-full object-cover h-48">
-      <h4 class="font-medium text-lg">Golden Shell Earrings</h4>
+      <img src="https://i.imgur.com/JAfoO9C.png" class="rounded mb-3 w-full object-cover h-48">
+      <h3 class="font-medium text-lg">Golden Shell Necklace</h3>
       <p class="text-pink-600 font-bold">€8.00</p>
     </div>
     <div class="bg-white p-4 rounded shadow">
-      <img src="https://i.imgur.com/x7b0wsv.png" alt="Flower Earrings" class="rounded mb-3 w-full object-cover h-48">
-      <h4 class="font-medium text-lg">Sakura Flower Studs</h4>
+      <img src="https://i.imgur.com/x7b0wsv.png" class="rounded mb-3 w-full object-cover h-48">
+      <h3 class="font-medium text-lg">Vibrant Cotton Candy Bracelet</h3>
       <p class="text-pink-600 font-bold">€5.00</p>
     </div>
     <div class="bg-white p-4 rounded shadow">
-      <img src="https://i.imgur.com/4NTQtTB.png" alt="Starfish Earrings" class="rounded mb-3 w-full object-cover h-48">
-      <h4 class="font-medium text-lg">Pink Starfish Hoops</h4>
+      <img src="https://i.imgur.com/4NTQtTB.png" class="rounded mb-3 w-full object-cover h-48">
+      <h3 class="font-medium text-lg">Blue Beaded Bracelet</h3>
       <p class="text-pink-600 font-bold">€9.00</p>
     </div>
-  </div>
-
-  <!-- Rings & Bracelets -->
-  <h3 class="text-xl font-semibold text-pink-600 mb-4">Rings & Bracelets</h3>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
     <div class="bg-white p-4 rounded shadow">
-      <img src="https://i.imgur.com/qjPMLzI.png" alt="Shell Bracelet" class="rounded mb-3 w-full object-cover h-48">
-      <h4 class="font-medium text-lg">Shell Bracelet</h4>
-      <p class="text-pink-600 font-bold">€6.00</p>
-    </div>
-    <div class="bg-white p-4 rounded shadow">
-      <img src="https://i.imgur.com/qjPMLzI.png" alt="Shell Ring" class="rounded mb-3 w-full object-cover h-48">
-      <h4 class="font-medium text-lg">Shell Stacking Ring</h4>
+      <img src="https://i.imgur.com/qjPMLzI.png" class="rounded mb-3 w-full object-cover h-48">
+      <h3 class="font-medium text-lg">Shell Stacking Ring</h3>
       <p class="text-pink-600 font-bold">€4.00</p>
     </div>
   </div>
 </section>
 
-<!-- The rest of the site (Customize, Ask Us, Contact, Footer) -->
-<!-- [You can copy from the previous message, it stays unchanged] -->
+<!-- Customize Your Jewelry -->
+<section class="bg-pink-50 py-12 px-6 md:px-16">
+  <h2 class="text-2xl font-semibold text-center text-pink-700 mb-6">Customize Your Jewelry</h2>
+  <p class="text-center mb-4 text-gray-700">Want a special color, charm, or name? Tell us below and we’ll make it just for you!</p>
+  <form action="https://formspree.io/f/your-form-id" method="POST" class="max-w-xl mx-auto space-y-4">
+    <input type="text" name="name" placeholder="Your Name" required class="w-full border border-pink-300 rounded px-4 py-2" />
+    <input type="email" name="email" placeholder="Your Email" required class="w-full border border-pink-300 rounded px-4 py-2" />
+    <textarea name="customization" rows="4" placeholder="Tell us your idea!" required class="w-full border border-pink-300 rounded px-4 py-2"></textarea>
+    <button type="submit" class="bg-pink-500 text-white px-6 py-2 rounded hover:bg-pink-600">Send Custom Request</button>
+  </form>
+</section>
 
+<!-- Ask Us or Recommend -->
+<section class="bg-white py-12 px-6 md:px-16">
+  <h2 class="text-2xl font-semibold text-center text-pink-700 mb-6">Ask Us or Give a Suggestion</h2>
+  <p class="text-center mb-4 text-gray-700">Got a question or a cool idea? We'd love to hear it!</p>
+  <form action="https://formspree.io/f/your-form-id" method="POST" class="max-w-xl mx-auto space-y-4">
+    <input type="text" name="name" placeholder="Your Name" required class="w-full border border-pink-300 rounded px-4 py-2" />
+    <textarea name="message" rows="4" placeholder="Your question or idea" required class="w-full border border-pink-300 rounded px-4 py-2"></textarea>
+    <button type="submit" class="bg-pink-500 text-white px-6 py-2 rounded hover:bg-pink-600">Send Message</button>
+  </form>
+</section>
+
+<!-- Contact Us -->
+<section class="bg-pink-100 py-12 px-6 md:px-16">
+  <h2 class="text-2xl font-semibold text-center text-pink-700 mb-6">Contact Us</h2>
+  <form action="https://formspree.io/f/your-form-id" method="POST" class="max-w-xl mx-auto space-y-4">
+    <input type="text" name="name" placeholder="Your Name" required class="w-full border border-pink-300 rounded px-4 py-2" />
+    <input type="email" name="email" placeholder="Your Email" required class="w-full border border-pink-300 rounded px-4 py-2" />
+    <textarea name="message" rows="4" placeholder="Your Message" required class="w-full border border-pink-300 rounded px-4 py-2"></textarea>
+    <button type="submit" class="bg-pink-500 text-white px-6 py-2 rounded hover:bg-pink-600">Send Message</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-pink-200 text-center text-sm py-6 mt-10">
+  <p>&copy; 2025 MoZailee Jewels. All rights reserved.</p>
+  <p>Follow us on TikTok, Instagram, and YouTube 💗</p>
+</footer>
+
+</body>
+</html>
